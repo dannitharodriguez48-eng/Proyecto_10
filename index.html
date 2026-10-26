@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El sistema solar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="contenedor">
+        <h1>El sistema solar</h1>
+        <p class="introduccion">Conoce algunos datos sobre el espacio. Selecciona una pestaña para leer más.</p>
+
+        <div class="pestanas">
+            <button class="boton activo" data-id="sol">El Sol</button>
+            <button class="boton" data-id="rocosos">Planetas rocosos</button>
+            <button class="boton" data-id="gigantes">Planetas gigantes</button>
+            <button class="boton" data-id="exploracion">Exploración</button>
+        </div>
+
+        <section class="contenido activo" id="sol">
+            <h2>☀️ El Sol</h2>
+            <p>El Sol es la estrella que está en el centro del sistema solar. Nos da luz y calor, y su gravedad mantiene a los planetas en sus órbitas.</p>
+        </section>
+
+        <section class="contenido" id="rocosos">
+            <h2>🌍 Planetas rocosos</h2>
+            <p>Mercurio, Venus, la Tierra y Marte son los planetas rocosos. Tienen una superficie sólida y están más cerca del Sol.</p>
+        </section>
+
+        <section class="contenido" id="gigantes">
+            <h2>🪐 Planetas gigantes</h2>
+            <p>Júpiter, Saturno, Urano y Neptuno son los planetas más grandes del sistema solar. Están más lejos del Sol que los planetas rocosos.</p>
+        </section>
+
+        <section class="contenido" id="exploracion">
+            <h2>🚀 Exploración espacial</h2>
+            <p>Los científicos usan telescopios, satélites y sondas espaciales para conocer mejor los planetas y otros objetos del espacio.</p>
+        </section>
+    </main>
+
+    <script src="js.js"></script>
+</body>
+</html>
